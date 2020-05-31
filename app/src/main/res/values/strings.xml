@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">RecyclerView</string>
+    <string name="text_precio">$0</string>
+    <string name="text_nombre">Comida</string>
+    <string name="description_image">Comida</string>
 </resources>

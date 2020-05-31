@@ -13,7 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="241dp"
         android:layout_marginTop="8dp"
-        app:srcCompat="@drawable/calabresa" />
+        app:srcCompat="@drawable/calabresa"
+        android:contentDescription="@string/description_image" />
 
     <TextView
         android:id="@+id/tvNombre"
@@ -22,7 +23,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="8dp"
-        android:text="TextView"
+        android:text="@string/text_nombre"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
     <LinearLayout
@@ -39,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="$300"
+            android:text="@string/text_precio"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@android:color/holo_green_dark" />
 

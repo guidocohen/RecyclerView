@@ -85,7 +85,7 @@ class CustomAdapter(
 
     fun deleteSelectedItems() {
         if (itemsSeleccionados.size > 0) {
-            var itemsAEliminar = ArrayList<Plato>()
+            val itemsAEliminar = ArrayList<Plato>()
 
             for (index in itemsSeleccionados) {
                 itemsAEliminar.add(platos[index])

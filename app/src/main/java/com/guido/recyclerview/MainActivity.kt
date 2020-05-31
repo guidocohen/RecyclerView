@@ -88,7 +88,7 @@ class MainActivity : AppCompatActivity() {
                         isActionMode = true
                     }
                     adapter.selectItem(position)
-                    actionMode?.title = adapter.getCountSelectedItems().plus(" seleccionados")
+                    actionMode.title = adapter.getCountSelectedItems().plus(" seleccionados")
                 }
 
             })
